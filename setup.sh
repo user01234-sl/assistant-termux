@@ -1,0 +1,12 @@
+echo " ( Setting up... ) "
+pkg update && upgrade -y
+pkg install w3m
+pkg install neofetch
+pkg install kotlin
+pkg install python
+clang ./main.c -o assistant-exe
+mv main.c .main.c
+clear
+echo " ( Done ) "
+ls
+echo " Run './assistant' "
