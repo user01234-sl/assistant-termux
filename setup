@@ -1,3 +1,4 @@
+#!/bin/bash
 echo " ( Setting up... ) "
 pkg update && upgrade -y
 pkg install w3m
